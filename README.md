@@ -8,6 +8,7 @@ Forked from https://github.com/alizohaib/avatar-maker
 #### Download the project
 ```bash
 git clone https://github.com/hydrotik/avatar-maker
+cd avatar-maker
 ```
 
 #### Install the dependencies
