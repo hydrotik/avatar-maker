@@ -1,5 +1,5 @@
 import React from 'react';
-import TemplateListItem from './TemplateListItem';
+import TemplateListItem from './TemplateListItem.jsx';
 
 export default class TemplateList extends React.Component{
 

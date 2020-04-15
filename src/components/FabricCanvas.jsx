@@ -15,7 +15,7 @@ class FabricCanvas extends React.Component{
 		});
 	}
 
-	componentWillReceiveProps = (newprops) =>{
+	componentDidUpdate = (newprops) =>{
 
 		// If Updated Item is not the same as the old one
 		// 		=> Update the canvas with newer item
@@ -62,12 +62,11 @@ class FabricCanvas extends React.Component{
 	render(){
 		
 		return (
-			<div className= "main-canvas-container">
+			<div className="main-canvas-container">
 				
-				<canvas id= 'main-canvas'>
-				</canvas>
+				<canvas id="main-canvas" />
 
-				<Button bsStyle="success" onClick = {this.saveToCanvas} bsSize="large" block>
+				<Button bsstyle="success" onClick = {this.saveToCanvas} bssize="large" block>
                 	Download Avatar
               	</Button>
 			</div>

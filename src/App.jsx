@@ -1,9 +1,9 @@
 // File Imports
 import React, { Component } from 'react';
-import FabricCanvas from './components/FabricCanvas';
-import TemplateList from './components/TemplateList'
+import FabricCanvas from './components/FabricCanvas.jsx';
+import TemplateList from './components/TemplateList.jsx'
 import {bglist, facelist, eyeslist, faciallist, hairlist} from './images/templates/templatelist';
-import {Col, Tabs, Tab, Jumbotron, Button } from 'react-bootstrap';
+import {Col, Tabs, Tab, Jumbotron } from 'react-bootstrap';
 import './App.css';
 import {fabric} from 'fabric';
 
@@ -43,7 +43,7 @@ class App extends Component {
           <div className="row">
 
             <Col md={6}>
-              <Tabs defaultActiveKey={1} justified id="main_tabs">
+              <Tabs defaultActiveKey={1} justified="true" id="main_tabs">
                 <Tab eventKey={1} title="Faces">
                   
                   <TemplateList 

@@ -47,6 +47,12 @@ p {
   margin-bottom:15px;
 }
 
+.thumbnail img {
+  width:150px;
+  height:150px;
+  margin-bottom: 4px;
+}
+
 /* Canvas */
 #main-canvas{
   background: #ccc;
